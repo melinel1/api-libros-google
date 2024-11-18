@@ -96,7 +96,7 @@ const BookList = () => {
 
   return (
     <div>
-      <div className="min-h-screen w-100 px-8 flex justify-center items-center flex-col bg-gradient-to-tr from-green-400 to-blue-600 text-white shadow-l py-16">
+      <div className="min-h-screen w-100 px-8 flex justify-center items-center flex-col bg-gradient-to-tr from-green-400 to-blue-600 text-white shadow-l py-24">
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
           El mejor <span className="text-cyan-200">Buscador</span> de libros.
         </h1>

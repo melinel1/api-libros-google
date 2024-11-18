@@ -132,12 +132,12 @@ const BookDetail = () => {
           <h1 className="text-2xl font-semibold text-cyan-200">
             {book && book.title ? book.title : "Sin título"}
           </h1>
-          <p className="text-sm text-white">
+          <p className="text-sm text-cyan-900">
             {book && book.authors ? book.authors?.join(", ") : "Sin autores."}
           </p>
           {book && book.description ? (
             <p
-              className="mt-4 text-white"
+              className="mt-4 text-blue-950"
               dangerouslySetInnerHTML={{
                 __html: book.description || "No hay descripción disponible.",
               }}
