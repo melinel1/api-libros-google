@@ -104,7 +104,7 @@ const BookList = () => {
           onClear={() => setSearch("")}
           onChange={(e) => handleSearchChange(e.target.value)}
           value={search}
-          label="Search"
+          label="Buscar..."
           isClearable
           radius="lg"
           classNames={{
